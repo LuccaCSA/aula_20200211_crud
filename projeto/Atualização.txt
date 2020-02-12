@@ -1,0 +1,10 @@
+KELLY ---- Alterou: KLG.php Switch.php PS4.php PC.php Login.php Barra.php
+
+
+
+CREATE TABLE comentario(
+    idCom INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(50),
+    email VARCHAR(50),
+    comentario VARCHAR(144)
+)
